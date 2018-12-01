@@ -1,0 +1,3 @@
+class Muggle < Character
+
+end
