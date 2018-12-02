@@ -1,4 +1,4 @@
-#Harry Potter and the Magic of Ruby
+# Harry Potter and the Magic of Ruby
 
 The code in this repository wants to teach you a little bit about the magic of the Ruby programming language, in particular, Ruby objects, using inspiration from Harry Potter.
 
@@ -11,8 +11,8 @@ It was created for RailsGirls.London, December 2018
 3. Pull the code from this github repository: https://github.com/saramoohead/harry-potter-and-the-magic-of-ruby
 4. Start IRB in your terminal. If you've never done that before, start here: https://www.ruby-lang.org/en/documentation/quickstart/
 5. In IRB, load this program's files by typing or pasting in:
-  load 'harry_potter_and_the_magic_of_ruby.rb'
-This loads a ruby file that lists all the other ruby files that need for the code to work in IRB.
+  `load 'harry_potter_and_the_magic_of_ruby.rb'`
+This loads a single ruby file that contains a list of all the other ruby files with the word 'require' in front of them, so that you get all the code in the IRB terminal that you need to work with.
 
 
 ### YOUR FIRST TRANSFIGURATION LESSON
@@ -62,6 +62,8 @@ There are other characters in the story. So, using the same Character class, let
 
 `aunt_petunia = Character.new(name: "Petunia Dursely")`
 
+She can speak, too, but if you don’t have something nice to say...
+
 That's enough characters to get us started.
 
 ### Where's the magic?
@@ -85,7 +87,7 @@ You'll see the magically capitalised magic spell output:
 
     > EXPECTO PATRONUM!
 
-This is truly magic! But wait!! We have a problem!
+This is truly magic! But wait!! Repello Muggletum! We have a problem!
 
 
 ### Repello Muggletum (Wizards Unite, anyone?)
@@ -161,7 +163,7 @@ The error message says that Aunt Petunia doesn't know how to cast -- undefined m
 ### Master gave Dobby a sock
 Of course, there is more than one type of magic user. Harry uses a wand to make his magic, but Dobby doesn't need a wand to do his magic.
 
-Ruby magic let's us create a HouseElf class that also inherits from Character and include the Magic module. Now, we are sharing the behaviours of Magic across different object classes.
+Ruby magic let's us create a HouseElf class that also inherits from Character and include the Magic module. Now, we are sharing the behaviours of Magic across different object classes. I haven't done that -- so it's my challenge to you to do it foryourself. Make a HouseElf class, give it magic and then create a Dobby!
 
 
 In conclusion, there is no magic spell for learning how to code quickly. But with each little piece of code that you make do what you tell it to, you'll build up your powers to make something as rich and beautiful, and hopefully as successful as the Harry Potter world.
