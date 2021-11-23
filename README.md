@@ -1,5 +1,7 @@
 # Harry Potter and the Magic of Ruby
 
+Trans rights are human rights.
+
 The code in this repository wants to teach you a little bit about the magic of the Ruby programming language, in particular, Ruby objects, using inspiration from Harry Potter.
 
 It was created for RailsGirls.London, December 2018
